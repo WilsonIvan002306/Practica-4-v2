@@ -182,3 +182,23 @@ footer ul li a:hover {
 footer p {
     margin: 0.5rem 0;
 }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin-bottom: 0.5rem;
+    }
+    
+    .producto {
+        margin: 1rem;
+    }
+    
+    footer div {
+        flex-direction: column;
+    }
+}
