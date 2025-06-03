@@ -57,3 +57,37 @@ h3 {
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
+
+/* Estilos para los productos */
+.producto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.producto img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.producto p {
+    margin: 0.5rem 0;
+}
+
+.producto p strong {
+    color: #2c3e50;
+}
+
+.producto ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.producto ul li {
+    margin-bottom: 0.5rem;
+}
